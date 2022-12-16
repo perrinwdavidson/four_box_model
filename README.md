@@ -1,5 +1,5 @@
 # Description
-In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. Example output it presented below:
+In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. Example output is presented below:
 
 <img src="plots/experiment1.png" alt="Example model output" style="width:1000px;"/>
 
@@ -28,7 +28,7 @@ Next I cover the equations for DIC ::
   \Sigma C &= V_lC_l + V_dC_d + V_hC_h + M_a\cdot f\text{CO}_2^a.
 \end{align}
 ```
-We continue to follow Emerson and Hamme (2022) and linear the relationship between $A, C$, and $f\text{CO}_2^{sw}$:
+We continue to follow Emerson and Hamme (2022) and linearize the relationship between $A, C$, and $f\text{CO}_2^{sw}$:
 ```math
 \begin{align}
   (A_h - C_h) &= \beta_hf\text{CO}_2^h + \gamma_h, \\
