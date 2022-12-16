@@ -66,3 +66,23 @@ J_hS_hr_{a:p} \\
 J_lS_lr_{a:p}
 \end{bmatrix}
 ```
+Last, I give the coupled pCO$_2$ and DIC model matrix equation solved within the model at steady-state:
+```math
+x^\ast_C =
+\begin{bmatrix}
+T & (-T - f_{hd}) & f_{hd} & 0 & -kK_{H,h}S_h & kK_{H,h}S_h \\
+-T & 0 & T & -kK_{H,l}S_l & 0 & kK_{H,l}S_l \\
+0 & 0 & 0 & kK_{H,l}S_l & kK_{H,h}S_h & -k(K_{H,h}S_h + K_{H,l}S_l) \\
+V_l & V_h & V_d & 0 & 0 & M_a \\
+10^{15} & 0 & 0 & \beta_l10^{15} & 0 & 0 \\
+0 & 10^{15} & 0 & 0 & \beta_h10^{15} & 0 
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+J_hS_hr_{c:p} \\
+J_lS_lr_{c:p} \\
+0 \\
+\Sigma C \\
+(A_l - \gamma_l)\times10^{15}
+(A_h - \gamma_h)\times10^{15}
+\end{bmatrix}
+```
