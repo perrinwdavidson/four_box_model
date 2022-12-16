@@ -216,7 +216,7 @@ class FourBox:
         ax[2].set_xlabel("$f_{hd}$ (Sverdrups)")
         ax[2].set_ylabel("$J_{h}$ (mol C m$^{-2}$ y$^{-1})$")
         plt.colorbar(fig3, ax=ax[2], label="Efficiency ($\%$)", ticks=[0, 0.2, 0.4, 0.6, 0.8, 1.0])
-        plt.savefig("plots/experiment.png", dpi=300)
+        plt.savefig("plots/experiment1.png", dpi=300)
         plt.show()
 
         # return data ::
