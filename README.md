@@ -42,3 +42,12 @@ which has the solution, assuming that $A$ is invertible, of the form:
 ```math
 x^\ast = A^{-1}b.
 ```
+Therefore, we have the following set of matrix equations, starting with those for phosphate, which are modified from those presented in Emerson and Hamme (2022) to let the concentrations in the high and low latitude boxes be the unknowns that are determined through inversion:
+```math
+x^\ast_{P} = \begin{bmatrix} -f_{hd] - T & T \\
+                             0         & -T \\
+             \end{bmatrix}^{-1}
+             \begin{bmatrix} J_hS_h - f_{hd}P_d \\
+                             J_lS_l - TP_d \\
+             \end{bmatrix}
+```
