@@ -5,7 +5,31 @@ In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-
 I present the simple model equations in this section. We start with the phosphate equations:
 ```math
 \begin{align}
-  V_h \frac{\partial P_h}{\partial t} &= T(P_l - P_h) + f_{hd}(P_d - P_h) - J_hS_h \\
-  V_l \frac{\partial P_l}{\partial t} &= T(P_d - P_l) - J_lS_l
+  V_h \frac{\partial P_h}{\partial t} &= T(P_l - P_h) + f_{hd}(P_d - P_h) - J_hS_h, \\
+  V_l \frac{\partial P_l}{\partial t} &= T(P_d - P_l) - J_lS_l.
+\end{align}
+```
+Now I present the alkalinity equations ::
+```math
+\begin{align}
+  V_h \frac{\partial A_h}{\partial t} &= T(A_l - A_h) + f_{hd}(P_d - P_h) - J_hS_hr_{a:p}, \\
+  V_l \frac{\partial A_l}{\partial t} &= T(P_d - P_l) - J_lS_lr_{a:p}, \\
+  \sum A &= V_lA_l + V_dA_d + V_hA_h.
+\end{align}
+```
+Next I cover the equations for DIC ::
+```math
+\begin{align}
+  V_h \frac{\partial C_h}{\partial t} &= T(C_l - C_h) + f_{hd}(C_d - C_h) - J_hS_hr_{c:p} + kK_{H,h}S_h(f\text{CO}_2^a - f\text{CO}_2^h), \\
+  V_l \frac{\partial C_l}{\partial t} &= T(C_d - C_l) - J_lS_lr_{c:p} + kK_{H,l}S_l(f\text{CO}_2^a - f\text{CO}_2^l), \\
+  V_a \frac{\partial C_a}{\partial t} &= kK_{H,h}S_h(f\text{CO}_2^a - f\text{CO}_2^h) + kK_{H,l}S_l(f\text{CO}_2^a - f\text{CO}_2^l), \\
+  \sum C &= V_lC_l + V_dC_d + V_hC_h + M_a\cdot f\text{CO}_2^a.
+\end{align}
+```
+We also follow Emerson and Hamme (2022) and linear the relationship between $A, C$, and $f\text{CO}_2^{sw}$:
+```math
+\begin{align}
+  (A_h - C_h) &= \beta_hf\text{CO}_2^h + \gamma_h, \\
+  (A_l - C_l) &= \beta_lf\text{CO}_2^l + \gamma_l. \\
 \end{align}
 ```
