@@ -91,4 +91,5 @@ You can find an example of how to run the model in `example_FourBox.py`. The mod
 
 # References
 [1] Emerson and Hamme (2022): Chemical Oceanography: Element Fluxes in the Sea.
+
 [2] Sarmiento and Toggweiller (1984): A new model for the role of the oceans in determining atmospheric $p\text{CO}_2$.
