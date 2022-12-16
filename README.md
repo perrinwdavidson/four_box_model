@@ -82,7 +82,7 @@ J_hS_hr_{c:p} \\
 J_lS_lr_{c:p} \\
 0 \\
 \Sigma C \\
-(A_l - \gamma_l)\times10^{15}
+(A_l - \gamma_l)\times10^{15} \\
 (A_h - \gamma_h)\times10^{15}
 \end{bmatrix}
 ```
