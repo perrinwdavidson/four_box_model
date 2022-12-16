@@ -60,12 +60,14 @@ Now, I present the alkalinity equation solved within the model at steady-state:
 ```math
 x^\ast_A =
 \begin{bmatrix}
--f_{hd} - T & T \\
-0 & -T
+T & (-T - f_{hd}) & f_{hd} \\
+-T & 0 & T \\
+V_l & V_h & V_d 
 \end{bmatrix}^{-1}
 \begin{bmatrix}
 J_hS_hr_{a:p} \\
-J_lS_lr_{a:p}
+J_lS_lr_{a:p} \\
+\Sigma A
 \end{bmatrix}.
 ```
 Last, I give the coupled $f\text{CO}_2$ and DIC model matrix equation solved within the model at steady-state:
