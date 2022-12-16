@@ -66,7 +66,7 @@ J_hS_hr_{a:p} \\
 J_lS_lr_{a:p}
 \end{bmatrix}
 ```
-Last, I give the coupled pCO$_2$ and DIC model matrix equation solved within the model at steady-state:
+Last, I give the coupled pCO\(_2\) and DIC model matrix equation solved within the model at steady-state:
 ```math
 x^\ast_C =
 \begin{bmatrix}
