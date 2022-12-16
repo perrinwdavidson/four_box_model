@@ -1,6 +1,6 @@
 class FourBox:
     """
-    purpose :: to solve a coupled ocean-atmosphere model, as presented in Sarmiento and Toggweiler (1984, 1985)
+    purpose :: to solve a coupled ocean-atmosphere model, as presented in Sarmiento and Toggweiler (1984)
     author :: perrin w. davidson
     contact :: perrinwdavidson@gmail.com
     date :: 5.12.2022
