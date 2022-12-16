@@ -1,5 +1,5 @@
 # Description
-In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. 
+In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. Example output it presented below:
 
 <img src="plots/experiment1.png" alt="Example model output" style="width:1000px;"/>
 
