@@ -3,7 +3,7 @@ In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-
 
 # Model Equations
 I present the simple model equations in this section. We start with the phosphate equations:
-$$
+```math
   V_h \frac{\partial P_h}{\partial t} &= T(P_l - P_h) + f_{hd}(P_d - P_h) - J_hS_h \\
   V_l \frac{\partial P_l}{\partial t} &= T(P_d - P_l) - J_lS_l
-$$
+```
