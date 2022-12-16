@@ -54,3 +54,15 @@ J_hS_h \\
 J_lS_l
 \end{bmatrix}
 ```
+Now, I present the alkalinity equation solved within the model at steady-state:
+```math
+x^\ast_A =
+\begin{bmatrix}
+-f_{hd} - T & T \\
+0 & -T
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+J_hS_hr_{a:p} \\
+J_lS_lr_{a:p}
+\end{bmatrix}
+```
