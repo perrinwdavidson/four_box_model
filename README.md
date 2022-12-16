@@ -11,7 +11,7 @@ I present the simple model equations in this section, which are modified from Em
   V_l \frac{\partial P_l}{\partial t} &= T(P_d - P_l) - J_lS_l.
 \end{align}
 ```
-Now I present the alkalinity equations ::
+Now I present the alkalinity equations:
 ```math
 \begin{align}
   V_h \frac{\partial A_h}{\partial t} &= T(A_l - A_h) + f_{hd}(P_d - P_h) - J_hS_hr_{a:p}, \\
@@ -19,7 +19,7 @@ Now I present the alkalinity equations ::
   \Sigma A &= V_lA_l + V_dA_d + V_hA_h.
 \end{align}
 ```
-Next I cover the equations for DIC ::
+Next I cover the equations for DIC:
 ```math
 \begin{align}
   V_h \frac{\partial C_h}{\partial t} &= T(C_l - C_h) + f_{hd}(C_d - C_h) - J_hS_hr_{c:p} + kK_{H,h}S_h(f\text{CO}_2^a - f\text{CO}_2^h), \\
