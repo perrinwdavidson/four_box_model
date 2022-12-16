@@ -1,7 +1,7 @@
 # Description
 In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. 
 
-<img src="plots/experiment.png" alt="Example model output" style="width:200px;"/>
+<img src="plots/experiment1.png" alt="Example model output" style="width:1000px;"/>
 
 # Model Equations
 I present the simple model equations in this section, which are modified from Emerson and Hamme (2022). We start with the phosphate equations:
