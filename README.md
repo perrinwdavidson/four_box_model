@@ -54,7 +54,7 @@ x^\ast_P =
 \begin{bmatrix}
 J_hS_h \\
 J_lS_l
-\end{bmatrix}
+\end{bmatrix}.
 ```
 Now, I present the alkalinity equation solved within the model at steady-state:
 ```math
@@ -66,7 +66,7 @@ x^\ast_A =
 \begin{bmatrix}
 J_hS_hr_{a:p} \\
 J_lS_lr_{a:p}
-\end{bmatrix}
+\end{bmatrix}.
 ```
 Last, I give the coupled $f\text{CO}_2$ and DIC model matrix equation solved within the model at steady-state:
 ```math
@@ -86,7 +86,7 @@ J_lS_lr_{c:p} \\
 \Sigma C \\
 (A_l - \gamma_l)\times10^{15} \\
 (A_h - \gamma_h)\times10^{15}
-\end{bmatrix}
+\end{bmatrix}.
 ```
 # Using the model
 You can find an example of how to run the model in `example_FourBox.py`. The model class is in `FourBox.py`, which has all of the model equations and solution set-up, for which we use the simple `numpy.linalg.solve()` function.
