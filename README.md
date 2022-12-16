@@ -36,9 +36,9 @@ We continue to follow Emerson and Hamme (2022) and linear the relationship betwe
 # Model Formulation
 We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1985). This allows for a simulataneously solution of matrices of the form ::
 ```math
-\textbf{A}\textbf{x}=\textbf{b}
+Ax=b
 ```
 which has the solution, assuming that $\bm{A}$ is invertible, of the form:
 ```math
-\textbf{\tilde{x}} = \textbf{A}^{-1}\textbf{b}.
+\tilde{x} = A^{-1}b.
 ```
