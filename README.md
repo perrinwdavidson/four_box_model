@@ -38,7 +38,7 @@ We assume steady-state, instead of using an interative solver as is done by Sarm
 ```math
 Ax=b
 ```
-which has the solution, assuming that $\bm{A}$ is invertible, of the form:
+which has the solution, assuming that $A$ is invertible, of the form:
 ```math
 x^\ast = A^{-1}b.
 ```
