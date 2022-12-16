@@ -1,5 +1,5 @@
 # Description
-In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1985) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. 
+In this repository, I present a simple coupled steady-state, ocean-atmosphere 4-box model. It is of a Sarmiento and Toggweiler-type (1984) that can be used to understand the qualitative feedbacks between the ocean and atmosphere systems. 
 
 # Model Equations
 I present the simple model equations in this section, which are modified from Emerson and Hamme (2022). We start with the phosphate equations:
@@ -34,7 +34,7 @@ We continue to follow Emerson and Hamme (2022) and linear the relationship betwe
 \end{align}
 ```
 # Model Formulation
-We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1985). This allows for a simulataneously solution of matrices of the form:
+We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1984), which allows us to set the LHS of the above equations to 0 and solve for our concentrations in each box. This allows for a simulataneously solution of matrices of the form:
 ```math
 Ax=b
 ```
@@ -86,3 +86,9 @@ J_lS_lr_{c:p} \\
 (A_h - \gamma_h)\times10^{15}
 \end{bmatrix}
 ```
+# Using the model
+You can find an example of how to run the model in `example_FourBox.py`. The model class in `FourBox.py`, which has all of the model equations and solution set-up, for which we use the simple `numpy.linalg.solve()` function.
+
+# References
+[1] Emerson and Hamme (2022): Chemical Oceanography: Element Fluxes in the Sea.
+[2] Sarmiento and Toggweiller (1984): A new model for the role of the oceans in determining atmospheric $p\text{CO}_2$.
