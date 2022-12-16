@@ -38,7 +38,7 @@ We continue to follow Emerson and Hamme (2022) and linearize the relationship be
 # Model Formulation
 We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1984), which allows us to set the LHS of the above equations to 0 and solve for our concentrations in each box. This allows for a simulataneously solution of matrices of the form:
 ```math
-Ax=b
+Ax=b,
 ```
 which has the solution, assuming that $A$ is invertible, of the form:
 ```math
