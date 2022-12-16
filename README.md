@@ -34,11 +34,11 @@ We continue to follow Emerson and Hamme (2022) and linear the relationship betwe
 \end{align}
 ```
 # Model Formulation
-We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1985). This allows for a simulataneously solution of matrices of the form ::
+We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1985). This allows for a simulataneously solution of matrices of the form:
 ```math
 Ax=b
 ```
 which has the solution, assuming that $\bm{A}$ is invertible, of the form:
 ```math
-\tilde{x} = A^{-1}b.
+x^\ast = A^{-1}b.
 ```
