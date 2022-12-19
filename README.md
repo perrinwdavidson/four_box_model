@@ -36,7 +36,7 @@ We continue to follow Emerson and Hamme (2022) and linearize the relationship be
 \end{align}
 ```
 # Model Formulation
-We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1984), which allows us to set the LHS of the above equations to 0 and solve for our concentrations in each box. This allows for a simulataneously solution of matrices of the form:
+We assume steady-state, instead of using an interative solver as is done by Sarmiento and Toggweiler (1984), which allows us to set the LHS of the above equations to 0 and solve for our concentrations in each box. This allows for a simulataneous solution of matrices of the form:
 ```math
 Ax=b,
 ```
