@@ -91,7 +91,7 @@ J_lS_lr_{c:p} \\
 \end{bmatrix}.
 ```
 # Using the model
-You can find an example of how to run the model in `example_FourBox.py`. The model class is in `FourBox.py`, which has all of the model equations and solution set-up, for which we use the simple `numpy.linalg.solve()` function.
+You can find an example of how to run the model in `example_FourBox.py`. The model class is in `FourBox.py`, which has all of the model equations and solution set-up, for which we use the simple `numpy.linalg.solve()` function. Please feel free to email me at [perrinwd@mit.edu](mailto:perrinwdavidson@gmail.com).
 
 # References
 [1] Emerson and Hamme (2022): Chemical Oceanography: Element Fluxes in the Sea.
